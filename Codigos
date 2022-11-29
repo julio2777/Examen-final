@@ -1,0 +1,9 @@
+def funcion():
+  base = int(input("INTRODUCE LA BASE "))
+  altura = int(input("INTRODUCE LA ALTURA "))
+  area = (base * altura)/2
+  print(area)
+print("[1] AREA DE UN TRAINGULO")
+op = int(input("ELIGE UNA OPCION"))
+if op == 1:
+  funcion()
